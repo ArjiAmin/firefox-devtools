@@ -1,0 +1,8 @@
+[
+    {
+        "property": "theme.firefox_devtools.font_family",
+        "label": "Font Family",
+        "type": "string",
+        "defaultValue": "SF Mono, Menlo, monospace"
+    }
+]

@@ -501,7 +501,7 @@
    .inspector-tabpanel {
       border-radius: var(--theme-border-radius) !important;
       transition: opacity var(--theme-transition-duration) var(--theme-transition-timing) !important;
-      font-family: "SF Mono", Menlo, monospace !important;
+      font-family: var(--theme-firefox_devtools-font_family) !important;
    }
 
    .tree-rows,
