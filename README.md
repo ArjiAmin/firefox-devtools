@@ -1,3 +1,5 @@
+
+
 # Firefox DevTools Minimalist Theme
 
 A revitalized, minimalist theme for Firefox DevTools, inspired by Zen's design. Includes CSS transitions and supports both light and dark modes.
@@ -14,7 +16,7 @@ Here's a quick look at the theme:
 2. In Firefox/Zen browser, navigate to `about:config`, accept the risk warning, and search for `toolkit.legacyUserProfileCustomizations.stylesheets`. Ensure it's set to **true** (this should be the default in Zen).
 3. Navigate to `about:profiles` in your browser.
 4. Locate the section that says "This is the profile in use and it cannot be deleted." Find the "Root Directory" and click the **Open Folder** button.
-5. Navigate to the `chrome` folder and paste the downloaded `UserContent.css` file.
+5. Navigate to the `chrome` folder (create it if it doesn't exist) and paste the downloaded `userContent.css` file.
 6. Return to `about:profiles` and click "Restart normally...". After restart, open DevTools to see the applied theme.
 
 ## Development
